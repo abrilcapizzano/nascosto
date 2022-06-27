@@ -1,0 +1,48 @@
+.navegador {
+  background-color: #1e1510; }
+  .navegador ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+    .navegador ul li {
+      margin: 0; }
+      .navegador ul li a {
+        color: white; }
+        .navegador ul li a p {
+          font-size: 18px; }
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left; }
+    ul li {
+      margin: 0; }
+      ul li a {
+        color: white; } }
+
+main {
+  background-color: #1e1510; }
+  main h1 {
+    color: white;
+    justify-content: center;
+    display: flex; }
+  main ul {
+    list-style: none;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    color: white;
+    border: 2px solid white; }
+    main ul li {
+      padding: 20px;
+      margin: 10px;
+      line-height: 20px; }
+    main ul .titulos {
+      font-size: 24px; }
+    main ul .subtitulos {
+      font-size: 16px; }

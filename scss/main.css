@@ -1,7 +1,3 @@
-.navegador {
-  background-color: #1e1510;
-}
-
 .navegador ul {
   list-style: none;
   margin: 0;
@@ -22,7 +18,7 @@
 }
 
 .navegador ul li a p {
-  font-size: 18px;
+  font-size: 30px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 500px) {
@@ -51,8 +47,24 @@
   }
 }
 
+.boton {
+  background-color: white;
+}
+
 main {
-  background-color: #1e1510;
+  background-image: url(".././img/coffee-beans-3.svg");
+  background-position-y: bottom;
+  background-position: right;
+  background-repeat: space;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 main h1 {
@@ -77,16 +89,36 @@ main ul {
 }
 
 main ul li {
+  background-color: rgba(255, 255, 255, 0.096);
   padding: 20px;
   margin: 10px;
-  line-height: 24px;
+  line-height: 40px;
 }
 
 main ul .titulos {
-  font-size: 24px;
+  font-weight: bold;
+  font-size: 34px;
 }
 
 main ul .subtitulos {
-  font-size: 16px;
+  font-size: 28px;
+}
+
+main ul .precio {
+  font-size: 24px;
+}
+
+main section {
+  margin: 50px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  section {
+    margin: 50px;
+  }
+}
+
+body {
+  background-color: #291d16;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,13 @@
 main{
-    background-color: #1e1510;
-    h1 {
+background-image:  url(".././img/coffee-beans-3.svg"); 
+background-position-y: bottom;
+background-position: right;
+background-repeat: space;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+h1 {
         color: white;
 justify-content: center;
 display: flex;
@@ -12,18 +19,34 @@ display: flex;
         grid-template-columns: repeat(2, 50%) ;
         color: white;
       li{
+        background-color: rgba(255, 255, 255, 0.096);
         padding: 20px;
         margin: 10px;
-        line-height: 24px;
+        line-height: 40px;
         
       } 
 .titulos{
-    font-size: 24px;
+    font-weight: bold;
+    font-size: 34px;
 
 }        
 .subtitulos{
-    font-size: 16px;
+    font-size: 28px;
    
 }
+.precio{
+    font-size: 24px;
+}
      border: 2px solid white;   }
+
+     section{
+        margin: 50px;
+     }
+
+}
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    section{
+        margin: 50px;
+     }
 }

@@ -36,18 +36,22 @@ main {
   flex-wrap: wrap;
   width: 100%; }
   main h1 {
-    color: white;
+    font-weight: bold;
+    letter-spacing: 8px;
+    color: #000000;
+    background-color: rgba(211, 211, 211, 0.795);
     justify-content: center;
-    display: flex; }
+    display: flex;
+    font-size: 40px; }
   main ul {
     list-style: none;
     margin: 0;
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    color: white;
+    color: #d1d1d1;
     border: 2px solid white; }
     main ul li {
-      background-color: rgba(255, 255, 255, 0.096);
+      background-color: rgba(79, 77, 77, 0.86);
       padding: 20px;
       margin: 30px;
       line-height: 40px; }
@@ -59,11 +63,11 @@ main {
     main ul .precio {
       font-size: 24px; }
   main section {
-    margin: 50px; }
+    margin: 2px; }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   section {
-    margin: 1000px; } }
+    margin: 2px; } }
 
 body {
-  background-color: #291d16; }
+  background-color: #d1d1d1; }

@@ -29,11 +29,12 @@
 main {
   background-image: url(".././img/coffee-beans-3.svg");
   background-position-y: bottom;
-  background-position: right;
+  background-position: center;
   background-repeat: space;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  width: 100%; }
   main h1 {
     color: white;
     justify-content: center;
@@ -48,11 +49,11 @@ main {
     main ul li {
       background-color: rgba(255, 255, 255, 0.096);
       padding: 20px;
-      margin: 10px;
+      margin: 90px;
       line-height: 40px; }
     main ul .titulos {
       font-weight: bold;
-      font-size: 34px; }
+      font-size: 30px; }
     main ul .subtitulos {
       font-size: 28px; }
     main ul .precio {
@@ -62,7 +63,7 @@ main {
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   section {
-    margin: 50px; } }
+    margin: 1000px; } }
 
 body {
   background-color: #291d16; }

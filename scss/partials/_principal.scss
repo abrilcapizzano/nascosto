@@ -1,11 +1,12 @@
 main{
 background-image:  url(".././img/coffee-beans-3.svg"); 
 background-position-y: bottom;
-background-position: right;
+background-position: center;
 background-repeat: space;
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
+width: 100%;
 
 h1 {
         color: white;
@@ -21,13 +22,13 @@ display: flex;
       li{
         background-color: rgba(255, 255, 255, 0.096);
         padding: 20px;
-        margin: 10px;
+        margin: 90px;
         line-height: 40px;
         
       } 
 .titulos{
     font-weight: bold;
-    font-size: 34px;
+    font-size: 30px;
 
 }        
 .subtitulos{
@@ -47,6 +48,6 @@ display: flex;
 
 @media screen and (min-width:320px) and (max-width:768px) {
     section{
-        margin: 50px;
+        margin: 1000px;
      }
 }

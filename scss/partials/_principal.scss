@@ -1,19 +1,20 @@
 
  main {
     align-items: center;
-    background-image: url(".././img/coffee-beans-3.svg");
-    background-size: 64rem;
+    background-image: url(".././img/fondo.png");
+    background-size: 1000px;
     background-position: right;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
     
 
   h1{
-    font-size: 30px;
+    font-size: 32px;
     color: black;
+    font-weight: bold;
+
 
   }  
 
@@ -25,16 +26,14 @@
         color: black;
 
 
-        li {
-            border: #d1d1d1 2px solid;
+        li {padding: 12px;
+            border: #0f0f0f 2px solid;
             list-style: none;
             margin-bottom: 4px;
             line-height: 30px;
-
         }
 
         .titulos {
-            font-weight: bold;
             font-size: 28px;
 
         }
@@ -54,7 +53,7 @@
 }
 section{
     width: 500px;
-
+padding: 4px;
 }
 article{
     background-color: rgba(255, 255, 255, 0.815);

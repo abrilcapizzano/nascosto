@@ -2,9 +2,8 @@
  main {
     align-items: center;
     background-image: url(".././img/coffee-beans-3.svg");
-    background-position-y: bottom;
-    background-position: center;
-    background-repeat: space;
+    background-size: 64rem;
+    background-position: right;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,37 +13,39 @@
 
   h1{
     font-size: 30px;
-    background-color:  #d1d1d1a8;
+    color: black;
+
   }  
 
     ul {
         list-style: none;
-        margin: 0px;
+        margin-bottom: 4px;
         display: grid;
         grid-template-columns: repeat(1, 100%);
-        color: #d1d1d1;
+        color: black;
 
 
         li {
+            border: #d1d1d1 2px solid;
             list-style: none;
-            margin: 0px;
+            margin-bottom: 4px;
             line-height: 30px;
 
         }
 
         .titulos {
             font-weight: bold;
-            font-size: 20px;
+            font-size: 28px;
 
         }
 
         .subtitulos {
-            font-size: 18px;
+            font-size: 24px;
 
         }
 
         .precio {
-            font-size: 18px;
+            font-size: 20px;
         }
 
     }
@@ -53,14 +54,14 @@
 }
 section{
     width: 500px;
-    margin:0px;
-    border: 2px solid white;
+
 }
 article{
+    background-color: rgba(255, 255, 255, 0.815);
+
+    margin-top: 20px;
     text-align: center;
     align-items: center;
-    background-color: rgba(79, 77, 77, 0.616);
-
 }
 
 

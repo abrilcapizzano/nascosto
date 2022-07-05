@@ -1,57 +1,70 @@
-main{
-background-image:  url(".././img/coffee-beans-3.svg"); 
-background-position-y: bottom;
-background-position: center;
-background-repeat: space;
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-width: 100%;
 
-h1 {
-    font-weight: bold;
-    letter-spacing: 8px;
-        color: #000000;
-        background-color: rgba(211, 211, 211, 0.795);
-justify-content: center;
-display: flex;
-font-size: 40px;
-    }
-    ul{
-        list-style: none;
-        margin: 0;
-        display: grid;
-        grid-template-columns: repeat(2, 50%) ;
-        color: #d1d1d1;
-      li{
-        background-color: rgba(79, 77, 77, 0.86);
-        padding: 20px;
-        margin: 30px;
-        line-height: 40px;
-        
-      } 
-.titulos{
-    font-weight: bold;
+ main {
+    align-items: center;
+    background-image: url(".././img/coffee-beans-3.svg");
+    background-position-y: bottom;
+    background-position: center;
+    background-repeat: space;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+
+  h1{
     font-size: 30px;
+    background-color:  #d1d1d1a8;
+  }  
 
-}        
-.subtitulos{
-    font-size: 28px;
-   
-}
-.precio{
-    font-size: 24px;
-}
-     border: 2px solid white;   }
+    ul {
+        list-style: none;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        color: #d1d1d1;
 
-     section{
-        margin: 2px;
-     }
+
+        li {
+            list-style: none;
+            margin: 0px;
+            line-height: 30px;
+
+        }
+
+        .titulos {
+            font-weight: bold;
+            font-size: 20px;
+
+        }
+
+        .subtitulos {
+            font-size: 18px;
+
+        }
+
+        .precio {
+            font-size: 18px;
+        }
+
+    }
+
+
+}
+section{
+    width: 500px;
+    margin:0px;
+    border: 2px solid white;
+}
+article{
+    text-align: center;
+    align-items: center;
+    background-color: rgba(79, 77, 77, 0.616);
 
 }
 
-@media screen and (min-width:320px) and (max-width:768px) {
-    section{
-        margin: 2px;
-     }
-}
+
+ul, li{
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+   }

@@ -1,14 +1,14 @@
 .navegador ul {
   list-style: none;
-  margin: 0;
+  margin: 0px;
   display: flex;
   justify-content: center; }
   .navegador ul li {
-    margin: 0; }
+    margin: 0px; }
     .navegador ul li a {
-      color: white; }
+      color: black; }
       .navegador ul li a p {
-        font-size: 30px; }
+        font-size: 20px; }
 
 @media screen and (min-width: 320px) and (max-width: 500px) {
   ul {
@@ -27,47 +27,50 @@
   background-color: white; }
 
 main {
+  align-items: center;
   background-image: url(".././img/coffee-beans-3.svg");
   background-position-y: bottom;
   background-position: center;
   background-repeat: space;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   flex-wrap: wrap;
   width: 100%; }
   main h1 {
-    font-weight: bold;
-    letter-spacing: 8px;
-    color: #000000;
-    background-color: rgba(211, 211, 211, 0.795);
-    justify-content: center;
-    display: flex;
-    font-size: 40px; }
+    font-size: 30px;
+    background-color: #d1d1d1a8; }
   main ul {
     list-style: none;
-    margin: 0;
+    margin: 0px;
     display: grid;
-    grid-template-columns: repeat(2, 50%);
-    color: #d1d1d1;
-    border: 2px solid white; }
+    grid-template-columns: repeat(1, 100%);
+    color: #d1d1d1; }
     main ul li {
-      background-color: rgba(79, 77, 77, 0.86);
-      padding: 20px;
-      margin: 30px;
-      line-height: 40px; }
+      list-style: none;
+      margin: 0px;
+      line-height: 30px; }
     main ul .titulos {
       font-weight: bold;
-      font-size: 30px; }
+      font-size: 20px; }
     main ul .subtitulos {
-      font-size: 28px; }
+      font-size: 18px; }
     main ul .precio {
-      font-size: 24px; }
-  main section {
-    margin: 2px; }
+      font-size: 18px; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
-  section {
-    margin: 2px; } }
+section {
+  width: 500px;
+  margin: 0px;
+  border: 2px solid white; }
+
+article {
+  text-align: center;
+  align-items: center;
+  background-color: rgba(79, 77, 77, 0.616); }
+
+ul, li {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0; }
 
 body {
   background-color: #d1d1d1; }

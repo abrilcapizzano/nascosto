@@ -47,14 +47,14 @@ main {
     color: black; }
     main ul li {
       padding: 12px;
-      border: #0f0f0f 2px solid;
       list-style: none;
-      margin-bottom: 4px;
+      margin-bottom: 12px;
       line-height: 30px; }
     main ul .titulos {
       font-size: 28px; }
     main ul .subtitulos {
-      font-size: 24px; }
+      font-size: 24px;
+      font-weight: 400; }
     main ul .precio {
       font-size: 20px; }
 

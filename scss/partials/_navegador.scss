@@ -1,37 +1,19 @@
-.navegador{
-        ul {
-     list-style: none;
-     margin: 0px;   
-      display: flex;
-      justify-content: center;
 
-      li{
-        margin: 0px;
-        a{
-           color: black;
-          p{
-            font-size: 20px;
-          }
-        }
-    }
-     }
- 
- }
  
  
  @media screen and (min-width: 320px) and (max-width:500px) {
-     ul {
-         list-style: none;
-         margin: 0;   
-          display: flex;
+     .secciones {
+         list-style: none; 
+         display: flex;
          flex-direction: column;
-          justify-content: center;
-          align-items: center;
+         align-content: center;
      li{
-         margin: 0;
+         margin: 0px;
          a{
-            color: white;
+            color: black;
+            font-size: 24px;
          }
+
      }
          }
  }

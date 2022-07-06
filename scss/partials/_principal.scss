@@ -20,7 +20,7 @@
 
     ul {
         list-style: none;
-        margin-bottom: 4px;
+        margin-bottom: 12px;
         display: grid;
         grid-template-columns: repeat(1, 100%);
         color: black;
@@ -51,6 +51,8 @@ font-weight: 400;
 
 }
 section{
+    margin-bottom: 12px;
+
     width: 500px;
 padding: 4px;
 }

@@ -57,8 +57,7 @@ section{
 padding: 4px;
 }
 article{
-    background-color: rgba(255, 255, 255, 0.815);
-
+    background-color: rgba(246, 237, 237, 0.674);
     margin-top: 20px;
     text-align: center;
     align-items: center;
@@ -69,3 +68,8 @@ ul, li{
     margin:0 0 0 0;
     padding:0 0 0 0;
    }
+
+.contenedor-carousel{
+    align-items: center;
+    justify-content: center;
+}

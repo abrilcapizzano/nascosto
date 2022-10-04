@@ -1,5 +1,12 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
- main {
+
+main {
     align-items: center;
     background-image: url(".././img/fondo.png");
     background-size: 1000px;
@@ -69,7 +76,9 @@ ul, li{
     padding:0 0 0 0;
    }
 
-.contenedor-carousel{
-    align-items: center;
+.carousel.carrinho{
+    display: flex;
+    align-self: center;
     justify-content: center;
+    justify-self: center;
 }

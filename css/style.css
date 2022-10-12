@@ -14,11 +14,11 @@
     background-color: white; } }
 
 body {
-  display: flex;
-  flex-direction: column;
+  margin: 30px;
   align-items: center;
   justify-content: center;
-  align-content: center; }
+  display: flex;
+  flex-direction: column; }
 
 main {
   align-items: center;
@@ -74,6 +74,9 @@ ul, li {
   justify-self: center; }
   .carousel.carrinho img {
     width: 100%; }
+
+.carousel-inner img {
+  width: 100%; }
 
 body {
   background-color: rgba(255, 255, 255, 0.019); }

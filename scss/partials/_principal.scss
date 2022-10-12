@@ -4,29 +4,24 @@
     }
 main {
     align-items: center;
-    background-image: url(".././img/fondo.png");
-    background-size: 100%;
     background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     margin-left: 64px;
-    
+    text-align: center;
 
-  h1{
-    font-size: 32px;
+  .titulo-principal{
+    font-size: 30px;
     color: black;
     font-weight: bold;
-
-
   }  
 
     ul {
         list-style: none;
         margin-bottom: 12px;
-        display: grid;
-        grid-template-columns: repeat(1, 100%);
+
         color: black;
 
 
@@ -57,7 +52,8 @@ main {
 section{
     margin-bottom: 12px;
     display: flex;
-align-items: center;
+    align-items: center;
+    text-align: center;
 }
 article{
     background-color: rgba(255, 255, 255, 0.674);

@@ -1,21 +1,17 @@
-body{
-margin: 30px;
-align-items: center;
-justify-content: center;
-display: flex;
-flex-direction: column;
-}
-
-
+@media screen and (min-width:320px) and(max-width:768px){ 
+    html {
+        scroll-behavior: smooth;
+    }
 main {
     align-items: center;
     background-image: url(".././img/fondo.png");
-    background-size: 1000px;
-    background-position: right;
+    background-size: 100%;
+    background-position: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
+    margin-left: 64px;
     
 
   h1{
@@ -47,7 +43,7 @@ main {
 
         .subtitulos {
             font-size: 24px;
-font-weight: 400;
+            font-weight: 400;
         }
 
         .precio {
@@ -60,34 +56,21 @@ font-weight: 400;
 }
 section{
     margin-bottom: 12px;
-
-    width: 500px;
-padding: 4px;
+    display: flex;
+align-items: center;
 }
 article{
-    background-color: rgba(246, 237, 237, 0.674);
+    background-color: rgba(255, 255, 255, 0.674);
     margin-top: 20px;
     text-align: center;
     align-items: center;
+
+
 }
-
-
-ul, li{
-    margin:0 0 0 0;
-    padding:0 0 0 0;
-   }
-
 .carousel.carrinho{
-    display: flex;
+    width: 410px;
+    margin-left: 44px;
     align-self: center;
     justify-content: center;
-    justify-self: center;
-    img{
-        width: 100%;
-    }
 }
-.carousel-inner{
-    img{
-        width: 100%;
-    }
 }
